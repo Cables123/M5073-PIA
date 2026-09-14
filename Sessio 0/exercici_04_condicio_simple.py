@@ -6,3 +6,10 @@ El programa ha d'imprimir "Ets major d'edat" si té 18 anys o més, i "Ets menor
 
 # El teu codi aquí...
 
+edad = int(input("Introdueix la teva edat: "))
+
+if edad >= 18:
+    print("Ets major d'edat")
+else:
+    print("Ets menor d'edat")
+    
