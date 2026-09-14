@@ -1,0 +1,13 @@
+# (II) Mostra d'una estructura condicional
+#   Càlcul de la qualificació d'un alumne
+
+nota = float(input("Introdueix la nota (0-10): "))
+
+if nota < 5:
+    print("Suspès")
+elif nota < 7:
+    print("Aprovat")
+elif nota < 9:
+    print("Notable")
+else:
+    print("Excel·lent")
