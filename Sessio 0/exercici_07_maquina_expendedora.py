@@ -31,3 +31,6 @@ if input_beguda in lista_maquina:
         print(f"Compra realitzada! El teu canvi és {canvi:.2f} €.")
     else:
         print("Diners insuficients. Compra no realitzada.")
+
+else:
+    print("404")
